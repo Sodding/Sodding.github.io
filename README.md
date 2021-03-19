@@ -5,6 +5,6 @@
   <dd>Updates are available every time Securitas change logos</dd>
 
   <dt>Link</dt>
-  # Sodding.github.io
+  <dd>Sodding.github.io</dd>
 </dl>
 
