@@ -288,7 +288,7 @@ form {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  width: 68em;
+  width: 100em;
 }
 
 .container-bottom {
@@ -331,6 +331,7 @@ form {
   flex-wrap: wrap;
   box-sizing: border-box;
   align-items: stretch;
+  justify-content: center;
 }
 
 .row > * {
@@ -347,7 +348,6 @@ form {
 
 .row.aln-center {
   justify-content: center;
-  padding-top: 250px;
 }
 
 .row.aln-right {
@@ -518,12 +518,11 @@ form {
 }
 
 .row {
-  margin-top: -50px;
-  margin-left: -50px;
+  
 }
 
 .row > * {
-  padding: 50px 0 0 50px;
+  padding: 50px 25px 0 25px;
 }
 
 .row.gtr-uniform {
@@ -1695,8 +1694,8 @@ form ::-moz-focus-inner {
 
 .image img {
   display: inline-block;
-  height: 50%;
-  width: 50%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .image.fit {
@@ -1726,7 +1725,7 @@ form ::-moz-focus-inner {
   margin: 0 0 2em 0;
 }
 .image.featured2 {
-  display: ruby-text-container;
+  display: flex;
   margin: 0 0 2em 0;
 }
 
@@ -1965,7 +1964,7 @@ ul.actions.special {
 
 .feature-list h3:before {
   display: block;
-  color: #fff;
+  color: #f9f9f9;
   background: #2f333b url("images/overlay.png");
   border-radius: 2.5em;
   text-align: center;
@@ -2133,11 +2132,11 @@ ul.actions.special {
 }
 
 .wrapper.style2 {
-  background: #fff;
+  background: #f9f9f9;
 }
 
 .wrapper.style2 .title {
-  background: #fff;
+  background: #f9f9f9;
   color: #484d55;
 }
 
@@ -2151,7 +2150,7 @@ ul.actions.special {
 }
 
 .wrapper.style3 .image {
-  width: 200%;
+  width: 100%;
 }
 
 /* Page Wrapper */
@@ -2394,10 +2393,10 @@ ul.actions.special {
 /* contact */
 
 #contact {
-  background: #282b34 url("images/overlay.png");
+  background: #111419 url("images/overlay.png");
   color: #eee;
   color: rgba(255, 255, 255, 0.5);
-  padding-bottom: 6em;
+  padding-bottom: 2em;
 }
 
 #contact h1,
@@ -2469,7 +2468,7 @@ ul.actions.special {
 }
 
 #contact .title {
-  background: #282b34 url("images/overlay.png");
+  background: #111419 url("images/overlay.png");
   color: #eee;
 }
 
@@ -2503,7 +2502,7 @@ ul.actions.special {
 
 #copyright {
   text-align: center;
-  padding-top: 6em;
+  padding-top: 2em;
   margin-top: 6em;
   border-top: solid 1px rgba(255, 255, 255, 0.05);
 }
