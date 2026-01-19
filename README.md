@@ -1,4 +1,4 @@
-<a href="https://sodding.github.io/LogoSecuritas.png" target="_blank"><img src="https://github.com/Sodding/Sodding.github.io/blob/8267ff34762e6b6dfc9783041601ee801d2cf6c5/LogoSecuritas.png" alt="Logo" width="115" height="65" border="10" /></a>
+<a href="https://sodding.github.io/APS_Logo blanc.png" target="_blank"><img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/APS_Logo%20blanc.png" alt="Logo" width="115" height="65" border="10" /></a>
 <br>
 <dl>
   <dt>Under Maintenance</dt>
