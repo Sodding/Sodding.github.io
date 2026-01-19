@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/flickity.css" />
   </head>
   <body class="homepage is-preload">
     <div id="page-wrapper">
@@ -37,7 +38,7 @@
         <div class="title">Introduction</div>
         <div class="container">
           <p class="style1">Votre sécurité, Notre priorité...</p>
-          <p class="style3">Créée en mars 2024 par <strong>Frédéric REBOUSSIN</strong>, la société <strong>Armor Protection Sécurité</strong> est une entreprise spécialisée dans la <strong>protection des biens et des personnes</strong>. </p>
+          <p class="style3">Créée par <strong>Frédéric REBOUSSIN</strong>, la société <strong>Armor Protection Sécurité</strong> est une entreprise spécialisée dans la <strong>sécurité privée</strong>. </p>
         </div>
       </section>
       <section id="prestations" class="wrapper style2">
@@ -92,32 +93,19 @@
       </section>
       <section id="equipes" class="wrapper style3">
         <div class="title">Nos équipes</div>
-        <div class="container">
-          <div class="row aln-center">
-            <div class="col-4 col-12-medium">
-              <section class="highlight">
-                <div class="image featured2">
-                  <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/1.jpeg" alt="" />
-                </div>
-              </section>
+        <div class="gallery js-flickity" data-flickity-options='{"wrapAround": true,"autoPlay": 5000,"pauseAutoPlayOnHover": false}'>
+            <div class="gallery-cell">
+                <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/1.jpeg" alt="">
             </div>
-            <div class="col-4 col-12-medium">
-              <section class="highlight">
-                <div class="image featured2">
-                  <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/2.jpeg" alt="" />
-                </div>
-                <h3>
-              </section>
+            <div class="gallery-cell">
+                <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/2.jpeg" alt="">
             </div>
-            <div class="col-4 col-12-medium">
-              <section class="highlight">
-                <div class="image featured2">
-                  <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/3.jpeg" alt="" />
-                </div>
-                <h3>
-              </section>
+            <div class="gallery-cell">
+                <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/3.jpeg" alt="">
             </div>
-          </div>
+            <div class="gallery-cell">
+                <img src="https://raw.githubusercontent.com/Sodding/Sodding.github.io/refs/heads/main/Image/4.jpeg" alt="">
+            </div>
         </div>
       </section>
       <section id="contact" class="wrapper">
@@ -183,5 +171,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/flickity.js"></script>
   </body>
 </html>
